@@ -26,9 +26,15 @@ function Cocktail() {
 
   return (
     <section id="cocktails" className="noisy">
-      <img src="/images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" />
+      <img
+        src="/images/cocktail-left-leaf.png"
+        loading="lazy"
+        alt="l-leaf"
+        id="c-left-leaf"
+      />
       <img
         src="/images/cocktail-right-leaf.png"
+        loading="lazy"
         alt="r-leaf"
         id="c-right-leaf"
       />

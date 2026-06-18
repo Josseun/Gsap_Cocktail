@@ -77,11 +77,13 @@ function Menu() {
         src="/images/slider-left-leaf.png"
         alt="left-leaf"
         id="m-left-leaf"
+        loading="lazy"
       />
       <img
         src="/images/slider-right-leaf.png"
         alt="right-leaf"
         id="m-right-leaf"
+        loading="lazy"
       />
 
       <h2 id="menu-heading" className="sr-only">
@@ -115,6 +117,7 @@ function Menu() {
               src="/images/right-arrow.png"
               alt="r-arrow"
               aria-hidden="true"
+              loading="lazy"
             />
           </button>
 
@@ -127,6 +130,7 @@ function Menu() {
               src="/images/left-arrow.png"
               alt="l-arrow"
               aria-hidden="true"
+              loading="lazy"
             />
           </button>
         </div>
@@ -136,6 +140,7 @@ function Menu() {
             src={currentCocktail.image}
             alt={currentCocktail.name}
             className="object-contain"
+            loading="lazy"
           />
         </div>
 

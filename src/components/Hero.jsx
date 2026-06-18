@@ -56,11 +56,11 @@ function Hero() {
       },
     });
 
-    videoRef.current.onloadedmetadata = () =>{
+    videoRef.current.onloadedmetadata = () => {
       tl.to(videoRef.current, {
-        currentTime: videoRef.current.duration
-      })
-    }
+        currentTime: videoRef.current.duration,
+      });
+    };
   }, []);
 
   return (
@@ -71,12 +71,14 @@ function Hero() {
         <img
           src="/images/hero-left-leaf.png"
           alt="left-leaf"
+          loading="lazy"
           className="left-leaf"
         />
         <img
           src="/images/hero-right-leaf.png"
           alt="right-leaf"
           className="right-leaf"
+          loading="lazy"
         />
 
         <div className="body">
