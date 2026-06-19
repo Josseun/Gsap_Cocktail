@@ -56,7 +56,7 @@ function Menu() {
         trigger: "#menu",
         scrub: true,
         start: "top 30%",
-        end: "bottom 10%",
+        end: "bottom 80%",
       },
     });
 
